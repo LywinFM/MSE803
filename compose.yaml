@@ -1,0 +1,6 @@
+services:
+  mse803:
+    image: mse803
+    build:
+      context: .
+      dockerfile: ./Dockerfile
